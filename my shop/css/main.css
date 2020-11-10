@@ -1,0 +1,111 @@
+/*limited reset*/
+html,
+body,
+div,
+section,
+h3,
+footer,
+h1,
+p,
+img,
+,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: gray;
+}
+
+body {
+  background: #ccc;
+  width: 970px;
+  height: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+.shop {
+  background: white;
+  width: 400px;
+  padding: 1px;
+  margin: auto;
+}
+
+section.shop {
+  font: 0.9em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background: #374d17;
+  padding: 25px;
+  padding-top: 10px;
+  width: 900px;
+  border-radius: 10px;
+}
+
+h3 {
+  color: #c5d4c1;
+}
+
+#tabs {
+  height: 30px;
+  overflow: hidden;
+}
+
+#tabContainer h4 {
+  color: #374d17;
+  font-size: 1em;
+  margin-top: 0;
+}
+
+#tabs > ul {
+  font: 1em;
+  list-style: none;
+}
+
+#tabs ul,
+#tabs li {
+  margin: 0;
+  padding: 0;
+}
+
+#tabs > ul > li {
+  display: block;
+  float: left;
+  background: #ccc;
+  color: #fff;
+  margin: 0 1px 0 0;
+  padding: 7px 10px;
+  border-radius: 10px 5px 0 0;
+}
+#containers div {
+  background: #c5d4c1;
+  padding: 10px 10px 10px 10px;
+  margin: 0;
+  color: #333;
+  height: 600px;
+}
+
+#tabs > ul > .active {
+  cursor: pointer;
+}
+
+#tabs > ul > li:hover {
+  background: #c5d4c1;
+  cursor: pointer;
+}
+
+#tabs a {
+  text-decoration: none;
+  color: black;
+}
+
+div img {
+  border: 5px solid #ccc;
+  margin-left: 25px;
+}
+
+p {
+  font: 1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
